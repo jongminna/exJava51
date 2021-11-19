@@ -11,15 +11,16 @@ public class Exam_04 {
 				break;
 			}
 			scn.next();
-			int age = scn.nextInt()/10;
-			if(age>=60) {
-				age=6;
-			}
+			int age = scn.nextInt();
+			apt[dong-1][age/10]++;
+			apt[dong-1][apt[0].length-1]++;
+			apt[apt.length-1][age/10]++;
+		/*	
+			int row = dong-1;
+			int col = age/10;
+			apt[row][col]++;
+		*/
 			
-			apt[dong-1][age]++; 
-			apt[dong-1][apt[0].length-1]++;//apt[dong-1][7]++;
-			apt[apt.length-1][age]++;//apt[10][age]++;
-			apt[apt.length-1][apt[0].length-1]++;//apt[10][7]++;
 		}
 		
 		//데이터 출력-2

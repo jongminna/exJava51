@@ -11,14 +11,10 @@ public class Exam_04 {
 				break;
 			}
 			scn.next();
-			int age = scn.nextInt()/10;
-			if(age>=60) {
-				age=6;
-			}
-			
-			apt[dong-1][age]++; 
+			int age = scn.nextInt();
+			apt[dong-1][age/10]++; 
 			apt[dong-1][apt[0].length-1]++;//apt[dong-1][7]++;
-			apt[apt.length-1][age]++;//apt[10][age]++;
+			apt[apt.length-1][age/10]++;//apt[10][age/10]++;
 			apt[apt.length-1][apt[0].length-1]++;//apt[10][7]++;
 		}
 		
