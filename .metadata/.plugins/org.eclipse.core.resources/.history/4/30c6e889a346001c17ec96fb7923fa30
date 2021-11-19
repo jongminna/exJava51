@@ -1,0 +1,15 @@
+
+public class Exam_02 {
+	public static void main(String[] args) {
+		int[] arr;//배열 변수 선언
+		arr = new int[5];
+		arr[0]=10;
+		arr[2]=20;
+		arr[3]=30;
+		arr[4]=40;
+		arr[5]=50;
+		
+		
+	}
+
+}

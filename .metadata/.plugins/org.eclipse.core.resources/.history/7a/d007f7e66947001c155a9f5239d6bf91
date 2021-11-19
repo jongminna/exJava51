@@ -1,0 +1,13 @@
+/* 메소드 사용법
+ */
+public class Exam_01 {
+	static void method_01() {
+		System.out.println("method_01() 호출됨");
+	}
+	public static void main(String[] args) {
+		method_01();
+		
+	}
+
+	
+}

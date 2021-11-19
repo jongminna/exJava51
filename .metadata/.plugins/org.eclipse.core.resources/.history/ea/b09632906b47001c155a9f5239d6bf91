@@ -1,0 +1,28 @@
+/* 메소드 사용법
+ */
+public class Exam_01 {
+	static void method_01() {
+		System.out.println("method_01() 호출됨");
+	}
+	static void method_02(int a, int b) {
+		int c= a + b;
+		System.out.println("method_02() 호출됨 c="+c);
+	}
+	static int method_03() {
+		System.out.println("method_03() 호출됨 ");
+		int s = 0;
+		for(int x=1; x<=10; x++) {
+			s+=x;
+		}
+		return s;
+	}
+	
+	public static void main(String[] args) {
+		method_01();
+		method_02(1,2);
+		method_03();
+		
+	}
+
+	
+}

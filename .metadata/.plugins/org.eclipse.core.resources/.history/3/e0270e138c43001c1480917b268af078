@@ -1,0 +1,11 @@
+
+public class Exam_11 {
+	public static void main(String[] args) {
+		int y=0;
+		while(y<5) {
+			y++;
+			System.out.println("*****");
+		}
+	}
+
+}
