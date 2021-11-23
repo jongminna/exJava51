@@ -15,14 +15,12 @@ public class Exam_04 {
 			if(age>=60) {
 				age=6;
 			}
-			
 			apt[dong-1][age]++; 
 			apt[dong-1][apt[0].length-1]++;//apt[dong-1][7]++;
 			apt[apt.length-1][age]++;//apt[10][age]++;
 			apt[apt.length-1][apt[0].length-1]++;//apt[10][7]++;
 		}
-		
-		//데이터 출력-2
+		//데이터 출력
 		System.out.println("동\t0~9\t10~19\t20~29\t30~39\t40~49\t50~59\t60이상\t합계");
 		for(int x=0; x<apt.length-1; x++) {
 			System.out.print((x+1)+"\t");
