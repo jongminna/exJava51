@@ -7,7 +7,7 @@ public class Parking {
 	public Parking(String carNo, int parkTime) {
 		this.carNo=carNo;
 		this.parkTime=parkTime;
-		pay2();
+		pay();
 	}
 	
 	private void pay() {
@@ -16,7 +16,7 @@ public class Parking {
 		}else if(parkTime>10 && parkTime<=30) {
 			money=500;
 		}else {
-			money=500+(((parkTime-20)/10)*500);
+			money=500+(((parkTime-21)/10)*500);
 		}
 		if(money>30000)
 			money=30000;
