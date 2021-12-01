@@ -1,17 +1,18 @@
 
 public class Sawon {
-	String id;//아이디
-	int grade;//등급
+	String id;//아이디(입력)
+	int grade;//등급(입력)
+	int time;//근무시간(입력)
 	int timeMoney;//시급
-	int time;//근무시간
 	int weekPay;//주간급여
 	public Sawon() {}
 	public Sawon(String id, int grade,int time) {
 		this.id=id;
 		this.grade=grade;
 		this.time=time;
-		getGrade();
-		weekPay();
+		
+		getGrade();//등급계산 메소드 호출
+		weekPay();//주간급여 계산 메소드 호출
 	}
 	
 	private void getGrade() {
