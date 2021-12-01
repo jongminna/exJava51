@@ -17,8 +17,7 @@ public class ScoreExam {
 	    
 	    Score score = null;
 	    Scanner scn = new Scanner(System.in);
-	    int cnt=0;
-	    while(cnt<5) {
+	    while(sData.cnt<5) {
 	    	System.out.print("점수등록:");
 	    	String hakbun = scn.next();
 	    	if(hakbun.equals("0000"))
@@ -30,7 +29,7 @@ public class ScoreExam {
 	    			int eng = scn.nextInt();
 	    			int mat = scn.nextInt();
 	    			//scoreArr[cnt] = new Score(student[x], kor,eng,mat);
-	    			sData.arrScore[cnt] = new Score(student[x], kor,eng,mat);
+	    			sData.arrScore[sData.cnt] = new Score(student[x], kor,eng,mat);
 	    			//cnt++;
 	    			sData.cnt++;
 	    			flag=true;
