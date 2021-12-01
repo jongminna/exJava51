@@ -4,10 +4,10 @@ public class ScoreData {
 	static int cnt;
 	
 	void rank() {
-		for(int x=0; x<arrScore.length; x++) {
+		for(int x=0; x<cnt; x++) {
 			//arrScore[x].setRank(1);
 			int r=1;
-			for(int y=0; y<arrScore.length; y++) {
+			for(int y=0; y<cnt; y++) {
 				if(arrScore[x].getTot() < arrScore[y].getTot()) {
 					//arrScore[x].setRank(arrScore[x].getRank()+1);
 					r++;
@@ -19,7 +19,7 @@ public class ScoreData {
 	
 	void dataPrint() {
 		System.out.println("학번\t이름\t성별\t나이\t국어\t영어\t수학\t총점\t평균\t석차");
-		for(int x=0; x<arrScore.length; x++) {
+		for(int x=0; x<cnt; x++) {
 			System.out.print(arrScore[x].getStudent().getHakbun()+"\t");
 			System.out.print(arrScore[x].getStudent().getName()+"\t");
 			if(arrScore[x].getStudent().getGender().equals("M")) {
