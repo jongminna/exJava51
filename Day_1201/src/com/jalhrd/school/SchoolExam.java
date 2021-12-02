@@ -22,7 +22,7 @@ public class SchoolExam {
 					break;
 				no++;
 			}
-			int imsi[] = new int[no-1];
+			int imsi[] = new int[no];
 			for(int x=0; x<imsi.length; x++) {
 				imsi[x] = score[x];
 			}
