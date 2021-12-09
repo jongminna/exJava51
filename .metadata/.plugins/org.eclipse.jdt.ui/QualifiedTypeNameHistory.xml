@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="java.util.Scanner"/>
+<fullyQualifiedTypeName name="com.jslhrd.exam01.TestExam02"/>
+<fullyQualifiedTypeName name="com.jslhrd.exam02.Anony"/>
+<fullyQualifiedTypeName name="com.jslhrd.exam02.Vehicle"/>
+<fullyQualifiedTypeName name="com.jlshrd.innerclass.Outer.Inner"/>
+<fullyQualifiedTypeName name="com.jlshrd.staticinnerclass.Outer.Inner"/>
+<fullyQualifiedTypeName name="java.io.IOException"/>
+<fullyQualifiedTypeName name="java.lang.NullPointerException"/>
+<fullyQualifiedTypeName name="java.lang.StringBuffer"/>
 <fullyQualifiedTypeName name="java.util.Arrays"/>
+<fullyQualifiedTypeName name="java.util.Scanner"/>
 <fullyQualifiedTypeName name="java.lang.System"/>
 </qualifiedTypeNameHistroy>
